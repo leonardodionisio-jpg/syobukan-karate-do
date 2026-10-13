@@ -5,20 +5,32 @@
 }
 
 body{
-    background-color: coral;
+    background-color: rgb(218, 211, 211);
 }
 
-.titulo{
-    background-color: black;
-    border-right: 20px  ;
-}
-
-.titulo h1{
-    color: white;
-    border: 10px;
+.titulo {
+    background-color: #1a1a1a;
+    color: #ffffff;
     text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 4px solid #c0392b;
 }
 
-.alogamento{
-    align-self: center;
+nav{
+    text-align: center;
+    padding: 20px;
+    height: 20px;
+}
+
+.campeonato{
+    background-color: #1a1a1a;
+}
+
+
+
+
+.alongamento {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    object-fit: cover;
 }
